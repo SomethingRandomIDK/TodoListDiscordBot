@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "A discord bot that functions as a todo list",
   "main": "bot.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SomethingRandomIDK",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.12.1"
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.4.5"
   }
 }
