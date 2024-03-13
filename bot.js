@@ -34,7 +34,7 @@ client.on(Events.MessageCreate, async (msg) => {
     checkCommands(msg);
 });
 
-function checkCommands(msg) {
+async function checkCommands(msg) {
     if(!msg.author.bot && msg.content.startsWith(commandSymbol)) {
         if(commands[msg.content.split(' ')[0].slice(1)](msg));
     }

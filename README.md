@@ -5,7 +5,7 @@ A Discord Bot that functions as a todo list
 # Installation and Setup
 The bot can be setup by following these steps:
 
-1. Follow the steps on this website to create your own discord bot
+1. Follow the steps on [this website](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot) to create your own discord bot
 2. Run this command to clone the repository:
 
     ```
